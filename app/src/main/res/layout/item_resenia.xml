@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+    <TextView
+        android:id="@+id/tvUsuarioResenia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Usuario"/>
+        <TextView
+            android:id="@+id/tvFechayCal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="calificacion"/>
+        <TextView
+            android:id="@+id/tvTituloRes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Titulo"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/tvResenia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resenia"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
